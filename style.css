@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0px auto;
+    font-size: 100%;
+}
+
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding :25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 780px;
+    max-width: 90%;
+    min-width: 85%;  
+    background-color: rgb(8, 124, 124); 
+}
+
+h1 {
+    font-size:2rem;
+    padding:1rem 1rem 3rem 2rem;
+    text-align: center;
+    
+}
+
+h2{
+    padding:1.5rem;
+    color:purple;
+    text-align: centre;
+    font-size: 1.2rem;
+}
+
+h3 {
+    text-align: center;
+    font-size:1rem;
+    color: darkslategray;
+
+}
+
+ul {
+    color: darkorchid;
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+p {
+    color:black;
+    line-height: 2;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    max-width: 75%;
+}
+
+.Touristattractions {
+    background-color:ghostwhite;
+    display: inline-block;
+    vertical-align: top;
+    width:200px;
+    justify-content: center;
+    
+}
+
+.Touristattractions li {
+    font-size: small;
+}
+.places {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 95%;
+    padding-bottom: 2rem;
+    line-height: 1rem;
+    background-color: lightblue;
+}
+
+#pagewrapper {
+    margin:1rem auto;
+    width:90%;
+    background-color: powderblue;
+}
+
+#primarynav a:hover {
+    color: brown;
+}
+
+#primarynav li {
+    list-style: none;
+    display: inline-block;
+}
+
+#primarynav li:first-child a {
+    border-left: 1px solid black;
+}
+
+#primarynav a {
+    padding:0.5rem;
+    display: inline-block;
+    text-align:center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    min-width: 100px;
+}
+
+#primarynav {
+    background-color: cadetblue;
+}
+
+#secondarynav a {
+    border-bottom:1px solid darkseagreen ;
+    padding:0.2rem;
+    display: block;
+    text-decoration: none;
+}
+
+.places img {
+    width:85%;
+}
+
+.travel_tips {
+    background-color: gray;
+}
+
+img {
+    width: 95%;
+    height: auto;
+    max-height: auto;
+    max-width: 800px;
+    margin-top: 0.75rem;
+    padding: 0.5rem;
+      
+}
+.review img {
+    width:200px;
+    height:auto;
+    display:block;
+    margin: 0.5rem auto;
+    background-color: aquamarine;
+
+}
+
+.reviews {
+    background-color: cadetblue;
+}
+
+#reviewwrapper {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.review {
+    max-width: 56rem;
+    display: inline-block;
+    height:auto;
+    vertical-align:top;
+
+}
+
+.transport img {
+    max-height: 50px;
+    max-width:50px;
+}
+
+#rightcol {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    background-color: powderblue;
+}
+
+.travel_tips p {
+    background-color: cadetblue;
+    padding: 0.5rem;
+}
+
+.travel_tips h2 {
+    font-family: inherit;
+}
+
+.type{
+    background-color: lightblue;
+}
+
+#leftcol {
+    vertical-align:top;
+    display:inline-block;
+    width: 25%;
+    text-align: left;
+}
+
+span {
+    font-style: italic;
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footerlinks {
+    text-align: centre;
+}
+
+#headerlinks ul, #footerlinks ul {
+    margin:1 rem 0.75rem;
+}
+
+#headerlinks li, #footerlinks li {
+    display:inline-block;
+    list-style: none;
+    font-size: smaller;
+}
+
+#headerlinks a, #footerlinks a{
+    text-decoration: none;
+    color: brown;
+}
